@@ -21,7 +21,7 @@ object Dependencies {
 
   val commonDependencies = Seq(scalaTest, mock, liftJson)
 
-  val inputAdapterDependencies = Seq(logback, config, sparkSqlKafka, sparkCore, sparkStreaming, sparkSql)
+  val inputAdapterDependencies = Seq(logback, config, sparkSqlKafka, sparkCore, sparkStreaming, sparkSql,liftJson)
 
   val preMonRServiceDependencies = Seq(logback, config, sparkCore,
     sparkSql, sparkStreaming)
